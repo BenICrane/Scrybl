@@ -1,1 +1,25 @@
+html, body {
+  height: 90%;
+  width: 98%;
+}
+h1 {
+    font-family: 'Caveat', cursive;
+}
 
+textarea {
+  width: 100%;
+  height: 90%;
+  box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+  font-size: 1.5rem;
+  font-family: 'Caveat', cursive;
+  background-color: #FAFAD2;
+  margin-bottom: 25px;
+}
+
+#save-btn {
+    position: relative; /* Allow for positioning */
+    float: right; /* Float the button to the right */
+    padding: 5px; /* Adds padding for better appearance */
+    font-size: 1rem; /* Increases icon size */
+    margin-top: -20px; /* Adjusts vertical position if needed */
+}
